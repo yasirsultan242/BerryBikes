@@ -16,19 +16,19 @@ export class index extends Component {
           <div class='container'>
             <Carousel autoplay effect='fade'>
               <div>
-                <img alt='' src={slide1} />
+                <img class='dash' alt='' src={slide1} />
               </div>
               <div>
-                <img alt='' src={slide2} />
+                <img class='dash' alt='' src={slide2} />
               </div>
               <div>
-                <img alt='' src={slide3} />
+                <img class='dash' alt='' src={slide3} />
               </div>
             </Carousel>
           </div>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
