@@ -19,6 +19,9 @@ export class index extends Component {
               <li>
                 <a href='/contact'>Contact us</a>
               </li>
+              <li>
+                <a href='/jobs'>Jobs</a>
+              </li>
             </ul>
           </nav>
         </div>

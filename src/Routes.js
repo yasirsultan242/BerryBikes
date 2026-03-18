@@ -5,6 +5,7 @@ import Menu from './containers/Menu';
 import Promo from './containers/Promos';
 import Order from './containers/Order';
 import Dashboard from './containers/Dashboard';
+import Jobs from './containers/Jobs';
 import history from './history';
 
 export default class Routes extends Component {
@@ -16,6 +17,7 @@ export default class Routes extends Component {
           <Route path='/parts' component={Menu} />
           <Route path='/promos' component={Promo} />
           <Route path='/contact' component={Order} />
+          <Route path='/jobs' component={Jobs} />
         </Switch>
       </Router>
     );
