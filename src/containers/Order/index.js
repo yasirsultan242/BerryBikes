@@ -20,12 +20,10 @@ export class index extends Component {
                 <div class='contact-info'>
                   <div class='row'>
                     <div class='col-md-3 icons'>
-                      <i class='fa fa-phone  ml-2 mt-2'></i>
                       <i class='fa fa-envelope  ml-2 mt-2'></i>
                       <i class='fa fa-address-book-o ml-2 mt-3'></i>
                     </div>
                     <div class='col-md-9 texts'>
-                      <label class='mt-2'>(333) 514-2005</label>
                       <label class='mt-2'>wolfberrry@gmail.com</label>
                       <label class='mt-2'>United States</label>
                     </div>
